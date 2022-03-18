@@ -102,4 +102,10 @@ public final class Constants {
         public static final double kPModuleDriveController = 0.38;
         public static final double kIModuleDriveController = 0.0000;
     }
+
+    public static final class OIConstants {
+        public static final int kDriverControllerPort = 0;
+        public static final int kClimberControllerPort = 1;
+        public static final double kdeadband = 0.1;
+    }
 }
